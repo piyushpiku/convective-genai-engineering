@@ -34,8 +34,8 @@ python 01_Toy_Shape_Morphing/morphing_model.py
 
 | **01. Shape Morphing** | **04. RANS Star Detection (Thesis Core)** |
 | :---: | :---: |
-| ![Morphing]([https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/1f.png])| ![Star]([https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/6f.png]) |
+| ![Morphing](https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/1f.png)| ![Star](https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/6f.png) |
 
 | **02. MNIST Digits** | **06. 3D Wake Tracking** |
 | :---: | :---: |
-| ![Digits]([https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/2c.png]) | ![Wake]([https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/7a.png]) |
+| ![Digits](https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/2c.png) | ![Wake](https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/7a.png) |
