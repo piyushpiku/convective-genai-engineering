@@ -29,3 +29,13 @@ pip install -r requirements.txt
 
 # 3. Run the model
 python 01_Toy_Shape_Morphing/morphing_model.py
+
+## 📊 Results Gallery
+
+| **01. Shape Morphing** | **04. RANS Star Detection (Thesis Core)** |
+| :---: | :---: |
+| ![Morphing](results/1f.png) | ![Star](results/6f.png) |
+
+| **02. MNIST Digits** | **06. 3D Wake Tracking** |
+| :---: | :---: |
+| ![Digits](results/2c.png) | ![Wake](results/7a.png) |
