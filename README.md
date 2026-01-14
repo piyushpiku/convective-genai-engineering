@@ -39,12 +39,3 @@ python 01_Toy_Shape_Morphing/morphing_model.py
 | **02. MNIST Digits** | **06. 3D Wake Tracking** |
 | :---: | :---: |
 | ![Digits](results/2c.png) | ![Wake](results/7a.png) |
-## 📊 Results Gallery
-
-| **01. Shape Morphing** | **04. RANS Star Detection (Thesis Core)** |
-| :---: | :---: |
-| ![Morphing](results/YOUR_MORPHING_IMAGE_NAME.png) | ![Star](results/YOUR_STAR_IMAGE_NAME.png) |
-
-| **02. MNIST Digits** | **06. 3D Wake Tracking** |
-| :---: | :---: |
-| ![Digits](results/YOUR_DIGIT_IMAGE_NAME.png) | ![Wake](results/YOUR_WAKE_IMAGE_NAME.png) |
