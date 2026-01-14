@@ -1,5 +1,5 @@
 # Convective GenAI Engineering
-**Master Thesis Portfolio | Generative Physics & Industrial Tomography**
+**Generative Physics & Industrial Tomography**
 
 ## 🔬 Project Overview
 This repository contains the implementation of **Generative Physics-Informed Flow Matching**, a framework for solving inverse problems in fluid dynamics. By treating physics as a generative process, we move from simple geometric morphing to complex 3D industrial tomography.
