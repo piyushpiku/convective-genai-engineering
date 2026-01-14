@@ -29,9 +29,20 @@ def get_source_data(n):
 
 def get_target_data(n):
     # Target: Square
-    data = np.random.uniform(-1.5, 1.5, size=(n*2, 2))
+    # Generate 4x the points to ensure we have enough after filtering
+    data = np.random.uniform(-1.5, 1.5, size=(n * 4, 2)) 
+    
+    # Keep only those inside the [-1, 1] box
     mask = (np.abs(data[:, 0]) < 1) & (np.abs(data[:, 1]) < 1)
-    return torch.tensor(data[mask][:n], dtype=torch.float32)
+    
+    valid_data = data[mask]
+    
+    # Safety check: if we still don't have enough, recurse (rare but safe)
+    if len(valid_data) < n:
+        return get_target_data(n)
+        
+    # Return exactly 'n' points
+    return torch.tensor(valid_data[:n], dtype=torch.float32)
 
 # 3. MAIN EXECUTION
 if __name__ == "__main__":
