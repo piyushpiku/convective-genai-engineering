@@ -29,18 +29,28 @@ pip install -r requirements.txt
 
 # 3. Run the model
 python 01_Toy_Shape_Morphing/morphing_model.py
-
+```
 ## 📊 Results Gallery
-## 📊 Results Gallery
+<table align="center">
+  <tr>
+    <td align="center" valign="middle">
+      <b>01. Shape Morphing (Generative)</b><br>
+      <img src="results/1f.png" width="500" alt="Shape Morphing">
+    </td>
+    <td align="center" valign="middle">
+      <b>04. RANS Star Detection (Physics-Informed)</b><br>
+      <img src="results/6f.png" width="500" alt="Star Detection">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <b>02. MNIST Digits (Latent Space)</b><br>
+      <img src="results/2c.png" width="300" alt="MNIST Digits">
+    </td>
+    <td align="center" valign="middle">
+      <b>06. 3D Wake Tracking (Temporal)</b><br>
+      <img src="results/7a.png" width="500" alt="Wake Tracking">
+    </td>
+  </tr>
+</table>
 
-### 1. Shape Morphing
-![Morphing](https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/1f.png)
-
-### 2. Star Detection
-![Star Detection](https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/6f.png)
-
-### 3. MNIST Digits
-![Digits](https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/2c.png)
-
-### 4. 3D Wake
-![Wake](https://raw.githubusercontent.com/piyushpiku/convective-genai-engineering/main/results/7a.png)
